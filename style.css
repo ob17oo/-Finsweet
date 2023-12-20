@@ -1,0 +1,1132 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Header {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.HeaderContainer {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderLinks {
+    display: flex;
+    gap: 40px;
+}
+
+.HeaderLinks a {
+    width: 115px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.HeaderLinks a:nth-child(6) {
+    width: 115px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.EnvironmentBackGround {
+    background: url(/images/Main\ background.png);
+    background-size: cover;
+}
+
+.Environment {
+    width: 90%;
+    height: calc(100vh - 90px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.EnvironmentContainer {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.EvnironmentContent {
+    margin-top: auto;
+}
+
+.EnvironmentContainer h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+}
+
+.EnvironmentBtn {
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.EnvironmentBtn a {
+    width: 148px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.EnvironmentBtn a:nth-child(1) {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+}
+
+.PlayButton {
+    position: relative;
+    z-index: 2;
+}
+
+.PlayButton:after {
+    position: absolute;
+    z-index: 1;
+    content: url(/images/PlayButton.svg);
+    left: 0;
+}
+
+.EnvironmentFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+}
+
+.EnvironmentFooter p{
+    color: white;
+    text-align: center;
+}
+
+.EnvironmentFooter div {
+    width: 50%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.AboutUs {
+
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom:64px ;
+}
+
+.AboutUsContainer {
+    margin-top: 158px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.AboutUsContent1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section_heading h3 {
+    align-self: flex-start;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    position: relative;
+    text-transform: uppercase;
+
+}
+
+.section_heading h3:before {
+    content: '';
+    width: 72px;
+    height: 2px;
+    background-color: black;
+    margin-right: 24px;
+}
+
+.section_heading h3 {
+    display: flex;
+    align-items: center;
+}
+.section_heading h2 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 32px;
+    padding-left: 92px;
+}
+.section_heading p{
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 92px;
+    margin-top: 16px;
+}
+.section_content {
+    padding-left: 92px;
+}
+
+.AboutUsContentText {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.AboutUsContentText p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.AboutUsContent1 a {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 146px;
+    height: 51px;
+    background-color: #70C174;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.AboutUsContent2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Supporters{
+    margin-top: 64px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.Supporters h3{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.SupportersContainer {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.WhatWeDo{
+    margin-top: 64px;
+    width: 100%;
+    background-color: #EFF7F2 ;
+}
+.WhatWeDoContainer {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+.section_content{
+    width: 50%;
+}
+.WhatWeDoContentContainer {
+    margin-top: 32px ;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+.WhatWeDoContent {
+    display: flex;
+}
+.WhatWeDoContent img{
+    margin-right: 24px;
+}
+.Projects{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+.ProjectsContainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 23px;
+    margin-top: 65px;
+}
+.ProjectsContent {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 48px;
+    border-radius: 12px;
+}
+.ProjectsContent h3{
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+    padding-top: 80px;
+    margin-bottom: 16px;
+}
+.ProjectsContent p{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 64px;
+}
+.ProjectsContent a{
+    width: 132px;
+    height: 51px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    
+}
+.ProjectsContent:nth-child(1){
+    background: url(/images/Mission.png) no-repeat;   
+    background-size: cover;
+}
+.ProjectsContent:nth-child(2){
+    background: url(/images/Wildlife.png) no-repeat; 
+    background-size: cover;  
+}
+.ProjectsContent:nth-child(3){
+    background: url(/images/Weekly.png) no-repeat;  
+    background-size: cover; 
+}
+.Stats{
+    width: 100%;
+    
+    margin-top: 96px;
+    background-color: black;
+}
+.StatsContainer {
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 96px ;
+    padding-bottom:  96px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.StatsContent {
+    width: 50%;
+}
+.StatsContentPhoto{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.StatsContent h2{
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+}
+.StatsContent p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    color:  white;
+}
+.StatsPercent {
+    color: white;
+    display: flex;  
+    flex-wrap: wrap;
+    
+}
+.StatsPercent p{
+    width: 30%;
+    position: relative;
+    margin-left: 20px;
+}
+.StatsPercent p:nth-child(1):after{
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: rgba(190, 243, 192, 1);
+    position: absolute;
+    left: -20px;
+    top: 0;
+}
+.StatsPercent p:nth-child(2):after{
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: rgba(172, 148, 241, 1);
+    position: absolute;
+    left: -20px;
+    top: 0;
+}
+.StatsPercent p:nth-child(3):after{
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: rgba(255, 240, 202, 1);
+    position: absolute;
+    left: -20px;
+    top: 0;
+}
+.StatsPercent p:nth-child(4):after{
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: rgba(249, 207, 100, 1);
+    position: absolute;
+    left: -20px;
+    top: 0;
+}
+.StatsPercent p:nth-child(5):after{
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: rgba(243, 143, 191, 1);
+    position: absolute;
+    left: -20px;
+    top: 0;
+}
+.YouCan{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 96px;
+}
+.YouCanContainer {
+
+}
+.YouCanContent { 
+    background: url(/images/ValunteerBG.png) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.YouCanContent h2{
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+}
+.YouCanContentLinks {
+    margin-top: 32px;
+    display: flex;
+    gap: 32px    ;
+    justify-content: center;
+}
+.YouCanContentLinks a:first-child{
+    width: 200px;
+    height: 51px;
+    border-radius: 4px;
+    background-color: rgba(112, 193, 116, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: White ;
+}
+.YouCanContentLinks a:last-child{
+    width: 116px;
+    height: 51px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.OurNews{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 96px;
+}
+.OurNewsTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.OurNewsTitle h2{
+    width: 20%;
+    font-weight: 500;
+    font-size: 40px;
+}
+.OurNewsTitle div{
+    width: 80%;
+    height: 2px;
+    background-color: rgba(229, 229, 229, 1);
+}
+.OurNewsContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 48px;
+}
+.OurNewsContent {
+    width: 25%;
+}
+.OurNewsContent h3{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 16px;
+}
+.OurNewsContent p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.OurEvents {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+.OurEventsContainer {
+    display: flex;
+    justify-content: space-around;
+
+}
+.OurEventsContent {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-top: 48px;
+    background-color: #BEF3C0;
+    width: 45%;
+    
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.OurEventsContentText h2{
+    font-weight: 500;
+    font-size: 48px;
+}
+.OurEventsContentText span{
+    font-weight: 500;
+    font-size: 16px;
+}
+.OurEventsContentTextLine {
+    display: flex;
+    align-items: center ;
+    gap: 10px;
+}
+.OurEventsContentTextLine h4{
+    font-weight: 500;
+    font-size: 16px;   
+}
+.OurEventsContentTextLine div{
+    width: 44px;
+    height: 1px;
+    background-color: black;
+}
+.OurEventsContent h2:nth-child(2){
+    font-weight: 500;
+    font-size: 28px;
+}
+.Footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.FooterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.FootetContent{
+    width: 30%;
+}
+.FooterContent h3 {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+.FooterContent:nth-child(2){
+    display: flex;
+    gap: 95px ;
+}
+.FooterContent ul{
+    list-style: none;
+}
+.FooterContent li:nth-child(1){
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 0px;
+    
+}
+.FooterContent li{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 24px;
+    color: white;
+}
+.Footer a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 24px;
+    color: white;
+}
+.FooterContent h2{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+.FooterContent input:nth-child(1){
+    width: 300px;
+    height: 64px;
+
+    background-color: #ffffff00;
+    border: 1px solid rgba(235, 240, 249, 0.1);
+    border-radius: 4px;
+   
+    font-family: 'Roboto', sans-serif;
+}
+.FooterContent input:nth-child(2){
+    width: 136px;
+    height: 64px;
+    border-radius: 4px;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: 500;
+    font-size: 16px;
+}
+@media (max-width:1400px ){
+    .EnvironmentFooter {
+
+    }
+}
+@media (max-width:1170px) {
+    .OurNewsContainer {
+        flex-wrap: wrap; 
+        justify-content: center;
+        row-gap: 30px;   
+    }
+    .OurNewsContent {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .FooterContainer{
+        flex-wrap: wrap;
+    }
+    .FooterContent{
+        width: 50%;
+    }
+}
+@media (max-width:1092px){
+    .OurEventsContainer{
+        flex-wrap: wrap;
+    }
+    .OurEventsContent{
+        width: 100%;
+    }
+    .HeaderContainer{
+        justify-content: center;
+    }
+    .HeaderLinks{
+        display: none;
+    }
+    .WhatWeDoContainer{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .WhatWeDoContent{
+        width: 100%;
+    }
+    .WhatWeDoContentRightSide{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .WhatWeDoContentRightSide img{
+        width: 70%;
+    }
+    .ProjectsContainer{
+        flex-wrap: wrap;
+    }
+    .ProjectsContent{
+        width: 100%;
+    }
+}
+@media (max-width:930px){
+    .SupportersContainer{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .SupportersContent{
+        width: 45%;
+       display: flex;
+       justify-content: center;
+    }
+    .StatsContainer{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .StatsContent{
+        width: 100%; 
+    }
+    .StatsContentPhoto{
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+}
+@media (max-width: 900px){
+    .AboutUsContainer{
+        flex-wrap: wrap;
+    }
+    .AboutUsContent1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .AboutUsContent2{
+        width: 100%;
+    }
+}
+@media (max-width:760px){
+    .FooterContainer{
+        gap: 30px;
+        justify-content: center;
+    }
+    .FooterContent{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .FooterContent:last-child{
+        flex-direction: column;
+        align-items: center;
+    }
+    .OurNewsContent{
+        width: 100%;
+    }
+}
+@media (max-width:520px ){
+    
+    .StatsPercent{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .StatsPercent p{
+        width: 100%;
+    }
+    .OurEventsContent{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .YouCanContent h2{
+        text-align: center;
+    }
+}
+@media (max-width: 400px){
+    .EnvironmentContent h1{
+        font-size: 40px;
+    }
+    .section_heading h2{
+        font-size:34px ;
+    }
+    .YouCanContentLinks{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .OurNewsTitle h2{
+        font-size: 30px;
+    }
+    .StatsContentPhoto img{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width:360px){
+    .EvnironmentContent h1{
+        font-size: 38px;
+    }
+}
+@media(max-width:350px){
+    .section_content{
+        padding-left: 0;
+    }
+    .section_heading h2{
+        padding-left: 0px;
+    }
+    .StatsContentPhoto img{
+        width: 100%;
+    }
+}
+@media(max-width: 430px){
+    
+    .section_heading h3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section_heading h3:before {
+        display: none;
+    }
+
+    .section_heading h3 {
+        display: flex;
+        align-items: center;
+    }
+    .section_heading h2 {
+        padding: 0px;
+    }
+    .section_heading p{
+        font-weight: 400;
+        font-size: 16px;
+        padding: 0px;
+        margin-top: 16px;
+    }
+    .section_content {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+.Nonprofit{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 96px;
+    padding-bottom: 80px;
+}
+.NonprofitContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.section_heading {
+}
+.NonprofitContent {
+    width: 50%;
+}
+.NonprofitContent:nth-child(2){
+    padding-top: 60px;
+}
+.NonprofitContent h4{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.NonprofitContent p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.OurMissionVision {
+    margin: 0 auto;
+    margin-top: 96px;
+    position: relative;
+    z-index: 3;
+}
+.OurMissionVisionContainer {    
+    width: 100%;
+    padding-top: 370px;
+    background-color: rgba(239, 247, 242, 1);
+    margin: 0 auto;
+    position: relative;
+}
+.OurMissionBGC{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.OurMissionBGC h3{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.OurMissionBGC h2{
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.OurMissionBGC p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.SupportersSecond{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 96px;
+    padding-bottom: 96px;
+}
+.SupportersSecond h3{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 48px ;
+}
+.SupportersContainerSecond {
+    display: flex;
+    justify-content: space-between
+}
+.SupportersContent {
+}
+.OurMissionContent{
+    width: 30%;
+}
+.MissionVideo iframe {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-bottom: -224px;
+    position: relative;
+    z-index: 1;
+}
+.Awards {
+    width: 90%;
+    margin: 0 auto;
+}
+.Awards h2{
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 96px;
+    margin-bottom: 96px;
+    margin-bottom: 48px;
+}
+.AwardsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.AwardsContent {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.AwardsContent h3{
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+.AwardsContent p{
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.AwardsContent span{
+    font-weight: 500;
+    font-size: 12px;
+    color: #1D2130;
+    opacity: 0.6;
+}
+.Journey {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 12px;
+    background-color: black;
+}
+.JourneyContainer {
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.JourneyContent {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 5%;
+}
+.JourneyContent  span{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+}
+.JourneyContent h2{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.JourneyContent p{
+   font-weight: 400;
+   font-size: 16px; 
+   margin-bottom: 32px;
+   line-height: 25.6px;
+   opacity: 0.6;
+}
+.JourneyStats {
+    display: flex;
+    gap: 32px;
+}
+.Meet {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 96px;
+}
+.Meet h2{
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+.Meet p{
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    text-align: center;
+}
+.MeetContainer {
+    margin-top:48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap:48px ;
+}
+.MeetContent {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.MeetContent h3{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 16px;
+}
+.MeetContent span{
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.6;
+    color:#1D2130;
+    margin-top: 8px;
+}
+.MeetLinks {
+    display: flex;
+    gap: 20px;
+    margin-top: 16px;
+}
+.MeetLinks img{
+    opacity: 0.6;
+}
+@media (max-width: 950px){
+    .SupportersContainerSecond {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .SupportersContent {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+    }
+    .MeetContent {
+        width: 47%;
+    }
+}
+@media(max-width:760px){
+    .AwardsContainer{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .AwardsContent{
+        width: 47%;
+    }
+}
+@media(max-width:730px){
+   .NonprofitContainer{
+    flex-wrap: wrap;
+   }
+    .NonprofitContent{
+        width: 100%;
+    }
+    .JourneyContainer {
+        flex-wrap: wrap;
+    }
+    .JourneyContent {
+       width: 90%;
+    }
+}
+@media(max-width:570px){
+    .OurMissionBGC{
+       flex-wrap:wrap;
+    }
+    .OurMissionContent{
+        width: 90%;
+    }
+    .AwardsContent{
+        width: 100%;
+    }
+    .MeetContainer{
+        justify-content: center; 
+    }
+    .MeetContent{
+        width: 90%;
+    }
+}
+@media(max-width:430px){
+    .FooterContent:nth-child(2){
+        display: flex;
+        gap: 50px;
+    }
+}
